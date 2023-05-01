@@ -1,0 +1,150 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/* body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #292929;
+  color: #fff;
+}
+
+/* Header */
+header {
+  padding: 40px;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-align: center;
+}
+
+/* navigation menu */
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+/* Projects style */
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+
+.game-photo {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.game-description {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* main content sections */
+section {
+  padding: 40px;
+}
+
+/* portfolio section */
+section#portfolio ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  background-color: #1a1a1a;
+  color: #fff;
+}
+
+/* get in touch */
+.get-in-touch {
+  background-color: #222;
+  padding: 50px;
+}
+
+.get-in-touch h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.get-in-touch form input,
+.get-in-touch form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+}
+
+.get-in-touch form input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.get-in-touch form input[type="submit"]:hover {
+  background-color: #0062cc;
+}
+
+/* footer */
+.footer {
+  background-color: #292929;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer .container {
+  max-width: 1200px;
+  padding-top: 9px;
+  margin: 0 auto;
+}
+
+.footer .footer-text {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-icons a {
+  display: block;
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+}
